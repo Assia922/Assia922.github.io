@@ -1,22 +1,60 @@
-    <header>
-        <h1>Bienvenue sur ma page web !</h1>
-        <p>Une page simple mais élégante avec HTML & CSS</p>
-    </header>
-    
-    <section>
-        <h2>Découvrez Wild Code School</h2>
-        <p>Une excellente école pour apprendre à coder !</p>
-        <a href="http://www.wildcodeschool.com" target="_blank">Visitez le site officiel</a>
-    </section>
-    
-    <section>
-        <h2>Une belle image</h2>
-        <p>Voici une image intégrée avec HTML :</p>
-        <img src="https://res.cloudinary.com/wildcodeschool/image/upload/c_fill,h_200/v1/static/irjoy97aq0eol8bf6959" alt="Wild Code School Logo">
-    </section>
-    
-    <footer>
-        <p>Créé avec ❤️ en apprenant HTML et CSS</p>
-    </footer>
-</body>
-</html>
+/* Style pour le body */
+body {
+    background-color: #f0f8ff; /* Couleur de fond */
+    font-family: Arial, sans-serif; /* Police par défaut */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0073e6; /* Couleur de fond du header */
+    color: white;
+}
+
+/* Style pour les titres */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style pour le lien */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour l'image */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Style pour le footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
